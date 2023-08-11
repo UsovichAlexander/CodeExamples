@@ -15,7 +15,7 @@ namespace vandrouka.m2.util
     public class CsvDownloader
     {
         public const string ENV_VAR_CONFIG_URL = "ConfigURL";
-        public const string RECOVERY_DB_CONFIG_URL = "https://docs.google.com/spreadsheets/d/1JfLwegtUy2ORm2b88jyq-LivQDi-liHHVOQYvnZ-eK4/export?format=xlsx";
+        public const string RECOVERY_DB_CONFIG_URL = "https://docs.google.com/spreadsheets/d/export?format=xlsx";
         public const string DB_CONFIG_EXCEL_PATH = "Assets/vandrouka/m2Config/csv/dbConfig.xlsx";
         public static bool isError;
 
